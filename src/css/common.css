@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 30px
+}
+
+.field {
+  padding: 10px;
+  margin: 5px;
+  background: #8b90d4
+
+}
+
+.field,
+.value {
+  border-radius: 3px
+}
+
+.value {
+  padding: 15px;
+  background: #e7e405;
+  display: inline-block
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px
+}
+
+input {
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 100px;
+  min-height: 40px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  color: #2d034b;
+  background-color: rgb(230, 224, 223);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;}
